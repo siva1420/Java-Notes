@@ -1,0 +1,68 @@
+------------------------------------------------------------------------------------------
+
+1. What is Selenium..?
+
+- It is a Open source tool for the Automation testing
+- It is used to do the Automation testing for Web based application
+- It supports different programing language like Java, Python C#
+- It supports different web browsers like Google Chrome, Operamini, Microsoft Edge
+- It can run at different Operating system like Window, Linux, Mac
+
+------------------------------------------------------------------------------------------
+2. How to download the chrome driver..?
+
+- Search chrome driver for selenium in the google chrome
+- Download the chromedriver.exe based our current chrome version
+- To know the current version of chromedriver.exe, Setting--> About Chrome --> Version name detail will available 
+ 
+ ------------------------------------------------------------------------------------------
+3. How to launch the Browser..?
+
+	System.setProperty("webdriver.chrome.driver","D:\\New folder\\chromedriver_win32\\chromedriver.exe");
+		
+	WebDriver driver=new ChromeDriver();
+
+------------------------------------------------------------------------------------------
+4. What is the get()..?
+	
+	The get() method is used to hit the link in the launched browser.
+
+	driver.get("https://github.com/Divya6501/Automation")
+
+
+------------------------------------------------------------------------------------------
+
+5. What is the sendKeys()..?
+
+	- The SendKeys() method is used to enter the input value to the text field
+	- We need to pass the string value in the send key method.
+
+	driver.sendKeys("www.google.com");
+
+------------------------------------------------------------------------------------------
+
+6. What is clear()..?
+
+	- The clear() is used to clear the text in the text field.
+ 
+      driver.findElement(By.xpath("//*[@id='username']")).clear();
+
+------------------------------------------------------------------------------------------
+
+7. What is click()..?
+
+	- The click() is used to click the element like button, checkbox
+
+	driver.findElement(By.xpath("//*[@id='username']")).click();
+
+------------------------------------------------------------------------------------------
+
+8. What is Thread.sleep()..?
+
+	- The sleep() is used to stop the execution of program for the mentioned time.
+	- We need to pass the time detail by milli seconds
+
+	Thread.sleep(3000); // 3seconds
+
+------------------------------------------------------------------------------------------
+
