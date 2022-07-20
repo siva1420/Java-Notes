@@ -1,0 +1,293 @@
+------------------------------------------------------------------------------------------
+
+1. What is Java
+
+ - Java is a programing language
+ - Java is based on OOPS concept
+ - OOPS mean Object oriented programing structute
+ - Java is introduced by SunMicro System
+
+------------------------------------------------------------------------------------------
+2. What are the datatype
+
+ - String  - Declare as String
+ - Integer - Declare as int
+ - Boolean - Declare as boolean
+ - Charactor - Declare as char
+ - Float - Declare as float
+ 
+ ------------------------------------------------------------------------------------------
+3. How to declare the variable
+
+    DataType variableName = value;
+
+    String name = "Java"
+    int age = 56
+    char initial = 'A'
+
+------------------------------------------------------------------------------------------
+4. How to print the variable
+
+    String name="Java"
+    
+    System.out.println(name);
+
+
+------------------------------------------------------------------------------------------
+
+5. What is String..?
+   
+ - String is one of the Datatype
+ - It is used to declare the values with collection of characters
+ - We are declaring the String value by using double quotes("")
+
+------------------------------------------------------------------------------------------
+6. What is integer
+
+ - Integer is one of the datatype
+ - It is used to declare the value with only numbers
+ - We can declare the integer directly
+
+------------------------------------------------------------------------------------------
+
+
+7. What is boolean
+
+ - Boolean is one of the datatype
+ - It is used to declare the value true/false
+ - We can declare the booleans value directly
+
+------------------------------------------------------------------------------------------
+
+8. What is Character
+
+ - Character is one of the datatype
+ - It is used to declare the value with single character
+ - We can declare the character value with single qutes('D')
+
+------------------------------------------------------------------------------------------
+
+9. How to print any statement
+
+   System.out.println("This is my name")
+
+5. What is String..?
+   
+ - String is one of the Datatype
+ - It is used to declare the values with collection of characters
+ - We are declaring the String value by using double quotes("")
+
+------------------------------------------------------------------------------------------
+   
+6. What is integer
+
+ - Integer is one of the datatype
+ - It is used to declare the value with only numbers
+ - We can declare the integer directly
+
+------------------------------------------------------------------------------------------
+
+7. What is boolean
+
+ - Boolean is one of the datatype
+ - It is used to declare the value true/false
+ - We can declare the booleans value directly
+
+------------------------------------------------------------------------------------------
+
+8. What is Character
+
+ - Character is one of the datatype
+ - It is used to declare the value with single character
+ - We can declare the character value with single qutes('D')
+
+------------------------------------------------------------------------------------------
+
+9. How to print any statement
+
+   System.out.println("This is my name")
+
+------------------------------------------------------------------------------------------
+
+10. How to create main method
+
+ - Main method is a default method in the Java
+ - It is used to execut the class
+
+    public static void main(String[]args)
+	{
+
+
+	}
+
+------------------------------------------------------------------------------------------
+
+11. How to create a class
+
+  public class ClassName
+
+  {
+
+
+
+  }
+
+------------------------------------------------------------------------------------------
+
+
+12. How to create an object for the class
+
+
+    ClassName objectName = new ClassName();
+
+    
+------------------------------------------------------------------------------------------
+
+13. Explain If condition:
+
+ - It is one type of control statement
+ - It is used to check the condition if true or false
+ 
+  if(condition)
+	{
+
+	}
+  else
+	{
+
+	}
+
+------------------------------------------------------------------------------------------
+
+14. Explain For loop:
+  
+  - It is one type of control statement.
+  - For loop is used to execute the programe for repeatative times.
+  - It will execute till the condition will be false.
+
+  for(int i=0; i<10; i++)
+  
+    {
+	
+	   System.out.println("Name")
+
+    }
+
+------------------------------------------------------------------------------------------
+
+15. What is the static method..?
+   
+  - static method is created with the "static" keyword
+
+  Example: 
+
+    public static void tester()
+	{
+	
+	}
+
+------------------------------------------------------------------------------------------
+
+16. What is the Non-Static method..?
+
+  - non-static method is created without the "static" keyword
+
+  Example:
+     
+    public void tester()
+	 {
+
+	 }
+
+------------------------------------------------------------------------------------------
+
+17. How to access the static method..?
+  
+  - We can access the static method by using it's class name
+
+  Syntax:
+    
+    ClassName.methodName();
+
+------------------------------------------------------------------------------------------
+
+18. How to access the non-static method..?
+
+   - We can access the non-static method by creating the object for the class
+
+ Example:
+ 
+ public class Example
+
+  {
+
+	public void exampleMethod()
+
+	{
+
+	
+	}
+
+
+  }	
+
+	Example exampleObject = new Example();
+
+	exampleObject.exampleMethod();
+
+------------------------------------------------------------------------------------------
+
+19. What is an identifiers..?
+
+  - Identifiers in Java are symbolic names used for identification. 
+  - They can be a class name, variable name, method name, object name.
+
+Rules:
+1. We should not special characters except underscore(_)
+2. Spaces should not use in identifiers
+3. Number should not use at starting letter
+
+Class Name:
+1. First letter should start with capital letter
+2. Every word should start with capital letter
+
+Method Name:
+It should write based on the camel case
+
+Object Name:
+It should write based on the camel case
+
+Variable Name:
+It should write based on the camel case
+
+
+------------------------------------------------------------------------------------------
+
+20. What is the structure of the Eclipse project..?
+
+    Project --> Source Folder --> Package --> Class
+
+------------------------------------------------------------------------------------------
+
+21. AutoSave:
+
+1. Normally we shuold save the file manually before running the java programe
+2. If we enabled the Autosave option mean, It will save the java programe automatically.
+
+
+Steps To Enable AutoSave option:
+ 
+   1. Type Autosave in Quickbox text field in Top right cornor and select the autosave option in the list
+   2. Click the checkbox in the Enable autosave for dirty editors
+   3. Enter the time in seconds for autosave
+
+------------------------------------------------------------------------------------------
+
+22. What is Eclipse:
+
+1. It is an IDE
+2. IDE mean, Integrated Development Kit
+3. It is a Dedicated tool to Handle the Java based projects
+4. It is used for testers to Handle the Automation script with Selenium
+
+------------------------------------------------------------------------------------------
